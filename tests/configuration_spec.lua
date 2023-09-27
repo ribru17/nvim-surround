@@ -165,7 +165,7 @@ describe("configuration", function()
         vim.cmd("normal yss)")
         assert.are.same(get_curpos(), { 1, 31 })
         check_lines({
-            [[And "jump forwards and backwards" to the (nearest) surround.]],
+            [[(And "jump forwards and backwards" to the (nearest) surround.)]],
         })
     end)
 
